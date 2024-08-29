@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+  
+  <title>Student Management</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Student Registration Form</h2>
+    <p>Fill out the form for registration</p>
+    <hr>
+    <form id="form">
+      
+   <label for="file">Your Photo</label>
+   <div id="la">
+      <input type="file" id="fileInput" accept="image/*">
+      <img id="preview" alt="Image Preview">
+      </div>
+      <label for="name">Name</label>
+      <div id="lab0">
+        <input type="text" id="fname" placeholder="First">
+        <input type="text" id="lname" placeholder="Last">
+      </div>
+      
+      <div id="lab1">
+        <label for="birthdate">Birth Date</label>
+        <label for="gender">Gender</label>
+      </div>
+      
+      <div id="lab2">
+        <input type="datetime-local" id="date" >
+        <select name="gender" id="gender">
+          <option value="">Please select</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      
+      <label for="address">Address</label>
+      <div id="lab3">
+        <input type="text" id="address" placeholder="Country">
+        <input type="text" id="city" placeholder="City">
+      </div>
+      
+      <div id="lab4">
+        <input type="text" id="township" placeholder="Township">
+        <input type="text" id="street" placeholder="Street">
+      </div>
+
+      <label for="email">Email</label>
+      <input type="email" id="email">
+
+      <div id="lab5">
+        <label for="phone">Phone</label>
+        <label for="workphone">Work Phone</label>
+      </div>
+      
+      <div id="lab6">
+        <input type="number" id="phone">
+        <input type="number" id="workphone">
+      </div>
+      
+      <label for="experience">Experience</label>
+      <textarea id="experience" rows="10" cols="40" placeholder="Write here"></textarea>
+      
+      <label for="comment">Comment</label>
+      <textarea id="comment" rows="5" cols="40" placeholder="Write here"></textarea>
+      <button type="button" id="subtn">Submit</button>
+    </form>
+  </div>
+    <script src="Script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr">
+</script>
+
+</body>
+</html>

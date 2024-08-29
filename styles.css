@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  padding: 10px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: rgb(230,230,230);
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 35px 17px 20px 12px;
+}
+p{
+  margin: 5px 0px 5px 0px;
+  text-align: left;
+}
+hr{
+  color: #000;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  margin: 5px 0px 30px 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 2px;
+  
+}
+
+form input, form select, form textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+#lab0, #lab1, #lab2, #lab3, #lab4, #lab5, #lab6{
+  display: flex;
+}
+#fname,#lname,#date,#gender,#township,#street,#address,#city,#phone,#workphone{
+  width: 50%;
+  margin: 5px;
+}
+#fileInput{
+  width: 45%;
+  margin: 5px;
+}
+#lab1 label:last-child{
+  margin-left: 90px;
+}
+ #lab5 label:last-child{
+   margin-left: 120px;
+ }
+#lab1 label:first-child{
+  margin-left: 5px;
+}
+label{
+  margin-left: 5px;
+}
+#email{
+  margin-left: 5px;
+}
+
+textarea{
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#preview{
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+#la{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

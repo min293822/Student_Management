@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Style.css">
+  <title>Student Management System</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Student Management</h1>
+    <div class="search-container">
+      <input id="search" type="text" placeholder="Search...">
+      <button id="searchbtn">Search</button>
+    </div>
+    <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Birth Date</th>
+          <th>Gender</th>
+          <th>Address</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Work Phone</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <!-- Table rows will be dynamically added here -->
+      </tbody>
+    </table>
+</div>
+    <div id="popupstu" class="popupstu">
+      <div id="popupcontentstu">
+      <span id="backstu">&times;</span>
+        
+        <form action="" id="popupformstu">
+          <table>
+           <tr>
+              <td><label for="photostu"></label></td>
+              <td><img alt="Image Preview" id="image"></td>
+            </tr>
+            <tr>
+              <td><label for="namestu">Name:</label></td>
+              <td><p id="namestu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="datestu">Birth Date:</label></td>
+              <td><p id="datestu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="genderstu">Gender:</label></td>
+              <td><p id="genderstu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="addressstu">Address:</label></td>
+              <td><p id="addressstu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="emailstu">Email:</label></td>
+              <td><p id="emailstu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="phonestu">Phone:</label></td>
+              <td><p id="phonestu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="workphonestu">Work Phone:</label></td>
+              <td><p id="workphonestu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="experiencestu">Experience:</label></td>
+              <td><p id="experiencestu"></p></td>
+            </tr>
+            <tr>
+              <td><label for="commentstu">Comment:</label></td>
+              <td><p id="commentstu"></p></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
