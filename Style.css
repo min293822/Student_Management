@@ -42,7 +42,7 @@ h1 {
   border-radius: 5px;
   width: auto;
   max-width: 800px;
-  height: 35%;
+  height: 50%;
   overflow-y: auto;
   position: relative;
 } 
@@ -103,7 +103,7 @@ table {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 th, td {
