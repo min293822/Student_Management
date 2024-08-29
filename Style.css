@@ -88,14 +88,8 @@ form button:hover {
 }
 
 /* Table Styling */
-.table{
-  position: fixed;
-  border: 1px solid #000;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-  background: #fff;
-}
+
+
 
 table, th, td {
   border-collapse: collapse;
